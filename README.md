@@ -6,7 +6,7 @@
 - Writing a technical blog post about Cobra-cli for my website: https://nicholaspazienza.com/blog <br>
 
 ### Example
-A user owns .1234 Bitcoin on Coinbase, .25 Bitcoin on their Trezor Hardware Wallet.
+A user owns .1234 Bitcoin on Coinbase and.25 Bitcoin on their Trezor Hardware Wallet.
 The total quantity owned by this user is .3734 Bitcoin.<br>
 Once the user knows their quantity they can simply enter the name and quantity into the application to find out their total value. <br>
 Command: **go run main.go get --name=Bitcoin --quantity=.3734** <br>
@@ -19,7 +19,7 @@ Quantity: 0.3734 <br>
 Value: \$38201.81 <br> <br>
 
 Summary: <br>
-A lot of Cryptocurrencies have become expensive and investors can purchase fractional shares, it becomes difficult to calculate in your head how much 0.3734 Bitcoin is worth at a price of \$102,308.01. <br> <br>
+A lot of Cryptocurrencies have become expensive and investors can only purchase fractional shares, it becomes difficult to calculate in your head how much 0.3734 Bitcoin is worth at a price of \$102,308.01. Cryptocurrency is a 24/7 industry with prices constantly changing. As long as a user knows their quantity owned, this CLI tool can use CoinMarketCap's data to provide the value of their investment.  <br> <br>
 Additionally, if an investor was interested in purchasing a quarter of a Bitcoin, this application can provide them information about the necessary capital needed to achieve that goal.
 
 
